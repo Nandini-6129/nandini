@@ -1,0 +1,236 @@
+html{
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    height: 15vh;
+    gap: 20px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    position: sticky;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.i1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+.con{
+    padding-left: 35vw;
+    display: flex;
+    gap: 30%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.h,.a,.p,.c{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.abcap{
+    display: grid;
+    grid: 1fr 1fr;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(https://excelrfs.netlify.app/assets/svg/common-bg.svg);
+}    
+.icon_l,.icon_g,.icon_t,.icon_y,.icon_i{
+    border: 2px solid white;
+    border-left: 2px solid white;
+    padding: 10px;
+    width: 2vw;
+    top: 50%;
+    box-sizing: inherit;
+}
+.icon{
+    width: 5rem;
+    position: absolute;
+    top: 50%;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.btn{
+    color: black;
+    text-align: center;
+    width: 10vw;
+    letter-spacing: 2px;
+    font-weight: 800;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-top: 10vh;
+}
+.main{
+    color: white;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.main_p{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.heading{
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    margin-top: 20vh;
+}
+.h_con{
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 20%;
+}
+.gtkm{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    height: 65vh;
+
+}
+button{
+    color: gray;
+    border: 1px solid white;
+    padding: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.gtkm_heading{
+    font-size: 1.6rem;
+}
+.gtkm_con{
+    font-size: 18px;
+    word-spacing: 4px;
+    color: grey;
+}
+.gtkm_btn{
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background: rgba(0, 98, 185, 0.8);
+        border-radius: 5px;
+        padding: 15px 50px;
+    }  
+    margin-top: 10vh;
+}
+.skills_h{
+    font-size: 1.6rem;
+}
+.c{
+    margin-top: 15px;
+}
+.project_con{
+    display: flex;
+    width: 80%;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+.project_row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pro_img{
+    padding-left: 100px;
+}
+.desc{
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 15%;
+}
+.csbtn{
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 98, 185, 0.8);
+    padding: 17px 35px;
+    border-radius: 5px;
+}
+.desc1{
+    width: 60%;
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 15%;
+}
+.contact{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(https://excelrfs.netlify.app/assets/svg/common-bg.svg);
+}
+.h2{
+    display: flex;
+    justify-content: space-around;
+}
+.heading_c{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.c_con{
+    color: white;
+    font-size: 20px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    margin-left: 25%;
+    margin-right: 25%;
+    background: white;
+}
+input{
+    width: 45vw;
+    height: 6vh;
+    background-color: rgb(240,240,240);
+    border: 5px solid rgb(235,235,235);
+}
+textarea{
+    background-color: rgb(240,240,240);
+    border: 5px solid rgb(235,235,235);
+    margin-bottom: 15%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    height: 50vh;
+    align-items: center;
+    line-height: 140%;
+}
+.fcon{
+    p{
+        width: 30%;
+    }
+}
+.faicon{
+    font-size: 1.5rem;
+}
